@@ -29,5 +29,5 @@ jobs:
       with:
           vid: "vera01ei-${{ secrets.VERACODE_API_ID}}"
           vkey: "vera01es-${{ secrets.VERACODE_API_KEY}}"
-          file: target/verademo.war
+          file: app/target/verademo.war
           debug: 1
